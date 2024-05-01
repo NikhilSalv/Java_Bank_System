@@ -32,6 +32,8 @@ public class Login extends JFrame implements ActionListener {
         // Set bounds for the image label and text label
         imageLabel.setBounds(70, 10, 100, 100);
         textLabel.setBounds(200, 40, 100, 40);
+        add(imageLabel);
+        add(textLabel);
 
         JLabel textLabel2 = new JLabel("Card Number : ");
         textLabel2.setBounds(200, 40, 100, 150);
@@ -66,8 +68,6 @@ public class Login extends JFrame implements ActionListener {
 
 
         // Add components to the frame
-        add(imageLabel);
-        add(textLabel);
 
         // Make the frame visible
         setVisible(true);
